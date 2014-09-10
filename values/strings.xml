@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_start">Start service</string>
+	<string name="title_stop">Stop service</string>
+	<string name="sum_start">Service is stopped now, press here to start</string>
+	<string name="sum_stop">Service is started now, press here to stop</string>
+	<string name="settings">Settings</string>
+	<string name="settings_sum">Adjust custom configuration of service operation</string>
+	<string name="send_msg">Messages</string>
+	<string name="send_msg_sum">View incoming and outcoming messages; send a text message</string>
+	<string name="send_img">Sending images</string>
+	<string name="send_img_sum">Send an image to the server</string>
+	<string name="statis_stat">Statistics and status</string>
+	<string name="statis_stat_sum">View latest data, statistics, and current status</string>
+	<string name="map">Map</string>
+	<string name="map_sum">Locate current position on map</string>
+	<string name="server_connection">Server connection</string>
+	<string name="server_address">Server address</string>
+	<string name="server_address_title">Change server addres</string>
+	<string name="remain_connected">Remain connected</string>
+	<string name="remain_connected_title">Remain connected to the server (for incoming messages)</string>
+	<string name="unit_settings">Unit settings</string>
+	<string name="unit_uid">Unit unique ID</string>
+	<string name="use_unit_pass">Use password for unit</string>
+	<string name="use_unit_pass_sum">To use a password, set it below and in unit settings</string>
+	<string name="unit_pass">Unit password</string>
+	<string name="unit_pass_title">Enter unit password</string>
+	<string name="unit_pass_sum">Enter a password to access the unit</string>
+	<string name="other">Other</string>
+	<string name="use_stock_cam">Use stock camera application</string>
+	<string name="use_stock_cam_sum">Use your standard camera application (low quality)</string>
+	<string name="debug_mode">Debug mode</string>
+	<string name="debug_mode_sum">Store log files in \".%s\" folder</string>
+	<string name="img_packet_size">Image packet size</string>
+	<string name="img_packet_size_title">Enter size of image packet, in bytes</string>
+	<string name="s">s</string>
+	<string name="b">B</string>
+	<string name="startup_service">Auto startup</string>
+	<string name="startup_service_sum">Start %s service after reboot</string>
+	<string name="restart_now">Restart service now?</string>
+	<string name="please_wait">Please wait&#8230;</string>
+	<string name="enter_message">Type your message and press Send or press Cancel to exit</string>
+	<string name="cancel">Cancel</string>
+	<string name="send">Send</string>
+	<string name="choose_one">Choose one</string>
+	<string name="send_cam">Send from camera</string>
+	<string name="take_pic_send_serv">Take a picture and send it to the server</string>
+	<string name="send_pic_file">Send from file</string>
+	<string name="sel_img_send_serv">Select an image file and send it to the server</string>
+	<string name="ok">OK</string>
+	<string name="file_not_image">Selected file is not an image!</string>
+	<string name="preparing_send">Preparing for sending</string>
+	<string name="img_queued">The image \"%s\" has been queued for sending</string>
+	<string name="msg_queued">The message \"%s\" has been queued for sending</string>
+	<string name="img_send_error">Error sending image!</string>
+	<string name="msg_send_error">Error sending message!</string>
+	<string name="current_status">Current status</string>
+	<string name="gps_connection">GPS connection</string>
+	<string name="internet_connection">Internet connection</string>
+	<string name="service_status">Service status</string>
+	<string name="msgs_in_bb">Messages in the black box</string>
+	<string name="last_known_loc">Latest data</string>
+	<string name="time">Time</string>
+	<string name="latitude">Latitude</string>
+	<string name="longitude">Longitude</string>
+	<string name="course_deg">Course</string>
+	<string name="number_sats">Number of satellites</string>
+	<string name="speed_kph">Speed</string>
+	<string name="accuracy_m">Accuracy</string>
+	<string name="height_m">Altitude</string>
+	<string name="msgs_defined">Total messages</string>
+	<string name="msgs_sended_lost">Messages (sent/lost)</string>
+	<string name="location">Location</string>
+	<string name="text">Text</string>
+	<string name="images">Images</string>
+	<string name="refreshing">Refreshing&#8230;</string>
+	<string name="loading_doted">loading&#8230;</string>
+	<string name="about">About</string>
+	<string name="about_sum">View information about the program</string>
+	<string name="first_run">For the first run, you need to configure settings. Would you like to do it now?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="send_log">Send log files</string>
+	<string name="reset_default">Reset to default</string>
+	<string name="con_error_short">Error connecting to server</string>
+	<string name="con_error_long">Unknown host error. Check server address and port.</string>
+	<string name="error_id_pass">Invalid unit ID or password</string>
+	<string name="could_not_connect">Cannot connect to server</string>
+	<string name="received_msg">New message received</string>
+	<string name="no_email_client">There are no email clients installed.</string>
+	<string name="email_log_text">At your request, I\'m sending you the log file for the %s application.</string>
+	<string name="autofocus">Autofocus</string>
+	<string name="service_restarted">Service was successfully restarted.</string>
+	<string name="again">Try again</string>
+	<string name="definition_location">Location determination</string>
+	<string name="wireless_networks">Use wireless networks</string>
+	<string name="wireless_networks_sum">Use wi-fi and cellular networks to determine location</string>
+	<string name="filtering">Filtration of messages</string>
+	<string name="filtering_sum">Enable or disable filtation of messages to be sent</string>
+	<string name="min_time_int">Min time</string>
+	<string name="min_time_int_title">Enter minimum time interval to send new data, in seconds</string>
+	<string name="min_dist_int">Min distance</string>
+	<string name="change_course">Change in course</string>
+	<string name="change_course_title">Enter min angle of course change to send new data, in degrees</string>
+	<string name="change_speed">Change in speed</string>
+	<string name="max_accuracy">Max accuracy</string>
+	<string name="max_speed">Max speed</string>
+	<string name="symb_degree">°</string>
+	<string name="mode_of_service">Operation mode</string>
+	<string name="mode_of_service_title">Select service operation mode</string>
+	<string name="work_of_service">Operation mode</string>
+	<string name="timeout_data">Timeout</string>
+	<string name="timeout_data_title">Indicate data timeout (minimum 5 minutes)</string>
+	<string name="min">min</string>
+	<string name="data_roaming">Work in roaming</string>
+	<string name="data_roaming_sum">Send data in roaming</string>
+	<string name="show_notification">Notifications</string>
+	<string name="show_notification_sum">Display notifications about events that happen in the background mode</string>
+	<string name="compatible_with_wialon">compatible with</string>
+	<string name="help">Help</string>
+	<string name="quit">Quit</string>
+	<string name="source_location">Positioning source</string>
+	<string name="source_location_title">Сhoose positioning source</string>
+	<string name="use_sound_and_vibrate">Play sound for events</string>
+	<string name="use_sound_and_vibrate_sum">Use sound/vibration/illumination for new events</string>
+	<string name="no_messages">You have no messages</string>
+	<string name="type_c">Message type:</string>
+	<string name="time_c">Time and date:</string>
+	<string name="delivery_status_c">Delivery status:</string>
+	<string name="delivery_time_c">Delivery time:</string>
+	<string name="inbox">Incoming</string>
+	<string name="outbox">Outcoming</string>
+	<string name="not_delivered">Not delivered</string>
+	<string name="delivered">Delivered</string>
+	<string name="message_length_c">Message length:</string>
+	<string name="image_path_c">Image path:</string>
+	<string name="content_type_c">Contents:</string>
+	<string name="text_sm">Text</string>
+	<string name="symbols">symbols</string>
+	<string name="image_sm">Image</string>
+	<string name="position_sm">Position</string>
+	<string name="select_action">Select action</string>
+	<string name="show_information">Show details</string>
+	<string name="copy_text">Copy contents</string>
+	<string name="remove_message">Remove message</string>
+	<string name="msgs_succes_removed">Message has been successfully removed</string>
+	<string name="delivered_short">Message delivered</string>
+	<string name="delivered_long">Text message delivered successfully</string>
+	<string name="delivered_long_i">Image \"%s\" delivered successfully</string>
+	<string name="remove_all">Remove all</string>
+	<string name="remove_all_dialog">Do you really want to remove all messages?</string>
+	<string name="title_c">Subject:</string>
+	<string name="text_c">Text:</string>
+	<string name="show_on_map">Show on map</string>
+	<string name="calculate_route">Calculate Route</string>
+	<string name="unable_calc_route">Unable to calculate a route</string>
+	<string name="map_request_lang">en</string>
+	<string name="use_gpstag_pass">Use admin password</string>
+	<string name="use_gpstag_pass_sum">Use a password to access %s configuration</string>
+	<string name="gpstag_pass_title">Enter admin password</string>
+	<string name="gpstag_pass">Administration password</string>
+	<string name="gpstag_pass_sum">Enter a password to access %s configuration</string>
+	<string name="password">Password</string>
+	<string name="enter_password">Enter administration password</string>
+	<string name="wrong_password">Wrong password</string>
+	<string name="types_of_notifications">Types of notifications</string>
+	<string name="types_of_notifications_sum">Select events to display notifications for</string>
+	<string name="charger_reaction">Work while being charged</string>
+	<string name="charger_reaction_sum">Start %s service when the charger is connected and stop when disconnected
+	</string>
+	<string name="service_started_short">service started</string>
+	<string name="service_stoped_short">service stopped</string>
+	<string name="service_started_after_reboot">Service started after a reboot</string>
+	<string name="service_started_connect_charger">Service started as the charger connected</string>
+	<string name="service_stopped_disconnect_charger">Service stopped as the charger disconnected</string>
+	<string name="service_started_schedule_intreval">Service started by schedule</string>
+	<string name="service_stoped_schedule_intreval">Service stopped by schedule</string>
+	<string name="add_start_stop">Work by schedule</string>
+	<string name="add_start_stop_sum">Set time to start and stop the service</string>
+	<string name="intervals">Schedule</string>
+	<string name="start_time">Start time</string>
+	<string name="stop_time">Stop time</string>
+	<string name="select_time">Select time</string>
+	<string name="total_time">Total time</string>
+	<string name="time_interval_error">Invalid time interval</string>
+	<string name="select_week_day_title">Choose days of the week</string>
+	<string name="from_to_interval_item">%1$02d:%2$02d - %3$02d:%4$02d</string>
+	<string name="remove_interval">Remove interval</string>
+	<string name="edit_interval">Edit interval</string>
+	<string name="service_works_short">%s service is on</string>
+	<string name="last_pos_at">Last position at</string>
+	<string name="no_pos_data">No positional data</string>
+	<string name="notice_and_state">Notifications and state</string>
+	<string name="show_service_status">Show service status</string>
+	<string name="show_service_status_sum">Show the indicator of %s service work</string>
+	<string name="no_items">No intervals</string>
+	<string name="unlicensed_dialog_title">Application not licensed</string>
+	<string name="buy_button">Buy App</string>
+	<string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Google Play
+		Market.
+	</string>
+	<string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is
+		available.
+	</string>
+	<string name="retry_button">Retry</string>
+	<string name="quit_button">Exit</string>
+	<string name="messages_settings">Messages settings</string>
+	<string name="use_custom_messages">Use custom messages</string>
+	<string name="use_custom_messages_sum">Include advanced parameters in messages (choose below)</string>
+	<string name="send_provider_name">Provider name</string>
+	<string name="send_provider_name_sum">Include provider\'s name in each positional message</string>
+	<string name="send_accuracy">Accuracy</string>
+	<string name="send_accuracy_sum">Include accuracy in each positional message</string>
+	<string name="send_battery_level">Battery level</string>
+	<string name="send_battery_level_sum">Include current battery level</string>
+	<string name="server_port">Server port</string>
+	<string name="server_port_title">Enter server port</string>
+	<string name="unit_uid_title">Enter unit unique ID (8 symbols min)</string>
+	<string name="send_param">Sending custom parameters</string>
+	<string name="send_param_sum">Send messages with custom parameters like SOS or custom status</string>
+	<string name="send_alarm">Alarm message</string>
+	<string name="send_alarm_sum">Send alarm message (SOS)</string>
+	<string name="alarm_queued">Alarm message has been queued for sending</string>
+	<string name="param_queued">Custom status \"%s\" has been queued for sending</string>
+	<string name="alarm_send_error">Error sending alarm message</string>
+	<string name="param_send_error">Error establishing custom status \"%s\"</string>
+	<string name="delivered_long_custom_msg">Message with custom parameters has been sent</string>
+	<string name="alarm_msg_text">Alarm message</string>
+	<string name="param_msg_text">Custom status \"%1$s\" with value \"%2$s\"\r\nSent parameters: %3$s</string>
+	<string name="add_status_message">New custom status</string>
+	<string name="add_status_message_sum">Add a new custom status with adjustable values</string>
+	<string name="status_messages">Custom statuses</string>
+	<string name="send_prams">Message format</string>
+	<string name="always_send_last">Always send last</string>
+	<string name="always_send_last_sum">Send last selected value in every positional message</string>
+	<string name="remove_current_config">Delete status</string>
+	<string name="remove_current_config_sum">Delete configuration of this status</string>
+	<string name="enter_name">Enter name</string>
+	<string name="configuration_name">Name</string>
+	<string name="add_param">Add value</string>
+	<string name="list_of_params">List of values</string>
+	<string name="delete">Delete</string>
+	<string name="available_params">Values</string>
+	<string name="modify_params">Configure the list of values</string>
+	<string name="new_param">New value</string>
+	<string name="new_status">Custom status</string>
+	<string name="really_delete_status">Are you sure you want to delete this status and its configuration?</string>
+	<string name="state">Custom status</string>
+	<string name="choose_state">Choose value</string>
+	<string name="background_data_disabled_title">Background data disabled</string>
+	<string name="background_data_disabled">%s needs background data to be enabled</string>
+	<string name="enable">Enable</string>
+	<string name="refresh">Refresh</string>
+	<string name="wireless_networks_state">Wireless networks</string>
+	<string name="use_us_metrics">Use US metrics</string>
+	<string name="use_us_metrics_sum">Use miles and feet for distance</string>
+	<string name="mps">mps</string>
+	<string name="meters_per_second">meters per second</string>
+	<string name="kilometers_per_hour">kilometers per hour</string>
+	<string name="miles_per_hour">miles per hour</string>
+	<string name="mph">mph</string>
+	<string name="mi">mi</string>
+	<string name="ft">ft</string>
+	<string name="km">km</string>
+	<string name="kilometers">kilometers</string>
+	<string name="meters">meters</string>
+	<string name="miles">miles</string>
+	<string name="foots">feet</string>
+	<string name="min_dist_int_title">Enter minimum distance travelled to send new data, in %s</string>
+	<string name="change_speed_title">Enter min speed change to send new data, in %s</string>
+	<string name="max_accuracy_title">Enter maximum value of accuracy to consider messages as valid, in %s</string>
+	<string name="max_speed_title">Enter maximum speed value to consider messages as valid, in %s</string>
+	<string name="m">m</string>
+	<string name="kph">kph</string>
+	<string name="signing_up_doted">Connecting&#8230;</string>
+	<string name="signing_in_doted">Connecting&#8230;</string>
+	<string name="unit_already_exists">Unit with such unique ID is already registered in GPS-Trace Orange</string>
+	<string name="login">Login</string>
+	<string name="email">E-mail</string>
+	<string name="sign_up">Registration</string>
+	<string name="sign_in">Connect</string>
+	<string name="generate_random">Generate random</string>
+	<string name="finish">OK</string>
+	<string name="success_registration_text">%1$s, thank you for registering for free satellite tracking service
+		GPS-Trace Orange.\nAn e-mail has been sent to your address %2$s with information about just created
+		account.\nNow you can use GPS-Trace Orange, GPS-Trace Orange authors hope you’ll have a good time with our
+		service!
+	</string>
+	<string name="success_login_text">Successfully connected to \"%1$s\".</string>
+	<string name="wrong_login">Wrong login</string>
+	<string name="wrong_email">Wrong e-mail</string>
+	<string name="empty_password">Empty password</string>
+	<string name="no_network_connection">No network connection</string>
+	<string name="user_already_exists">User with given name or e-mail already exists</string>
+	<string name="wrong_uid">ID must be at least 8 characters long</string>
+	<string name="forgot_password">Forgot your password?</string>
+	<string name="skip">Skip</string>
+	<string name="wrong_login_or_password">Wrong login or password</string>
+	<string name="do_you_want_to_replace_unit">You are not allowed to create more units than you already have. Replace
+		any from existing units with the new one?
+	</string>
+	<string name="choose_unit">Choose a unit:</string>
+	<string name="reset_password">Reset password</string>
+	<string name="forgot_password_text">Please, enter your login name and e-mail.\nA new password will be sent to you.
+	</string>
+	<string name="password_has_sent">E-mail has been sent to %1$s.</string>
+	<string name="wrong_login_or_email">User with given login and e-mail does not exists.</string>
+	<string name="resetting_doted">Resetting&#8230;</string>
+	<string name="change_account">Change account</string>
+	<string name="change_account_summary">Sign out as \"%1$s\" (connect to another account)</string>
+	<string name="tmp_alert_title">GPS Tag for GPS-Trace Orange</string>
+	<string name="tmp_alert_text">You need to get the specilized version of the application for GPS-Trace Orange.
+	</string>
+	<string name="tmp_alert_get_app">Get App</string>
+	<string-array name="entries_mode">
+		<item>Continuous work</item>
+		<item>By timeout</item>
+	</string-array>
+	<string-array name="entries_location_mode">
+		<item>GPS</item>
+		<item>Wireless networks</item>
+		<item>GPS and wireless networks</item>
+	</string-array>
+	<string-array name="entries_notifications">
+		<item>Connection error</item>
+		<item>ID or password failure</item>
+		<item>New message</item>
+		<item>Delivery report for a text message</item>
+		<item>Delivery report for an image</item>
+		<item>Automatic start/stop of the service</item>
+		<item>Delivery report for messages with custom parameters</item>
+	</string-array>
+	<string-array name="week_days">
+		<item>Monday</item>
+		<item>Tuesday</item>
+		<item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+		<item>Saturday</item>
+		<item>Sunday</item>
+	</string-array>
+	<string-array name="week_days_short">
+		<item>Mon</item>
+		<item>Tue</item>
+		<item>Wed</item>
+		<item>Thu</item>
+		<item>Fri</item>
+		<item>Sat</item>
+		<item>Sun</item>
+	</string-array>
+	<string-array name="send_param_entries">
+		<item>Numeric value</item>
+		<item>Text value</item>
+		<item>Both values</item>
+	</string-array>
+	<string-array name="test_statuses">
+		<item>Available</item>
+		<item>Busy</item>
+		<item>Away</item>
+	</string-array>
+</resources>

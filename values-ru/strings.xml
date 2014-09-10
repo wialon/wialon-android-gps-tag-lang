@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="send_log">Отправить логи</string>
+	<string name="reset_default">Восстановить настройки по умолчанию</string>
+	<string name="autofocus">Автофокус</string>
+	<string name="enter_message">Введите ваше сообщение и нажмите \"Отправить\", для выхода нажмите \"Отмена\"</string>
+	<string name="cancel">Отмена</string>
+	<string name="send">Отправить</string>
+	<string name="current_status">Текущий статус</string>
+	<string name="gps_connection">GPS-соединение</string>
+	<string name="internet_connection">Подключение к интернету</string>
+	<string name="service_status">Статус сервиса</string>
+	<string name="msgs_in_bb">Сообщений в черном ящике</string>
+	<string name="last_known_loc">Последние данные</string>
+	<string name="time">Время</string>
+	<string name="latitude">Широта</string>
+	<string name="longitude">Долгота</string>
+	<string name="course_deg">Курс</string>
+	<string name="number_sats">Количество спутников</string>
+	<string name="speed_kph">Скорость</string>
+	<string name="accuracy_m">Погрешность</string>
+	<string name="height_m">Высота</string>
+	<string name="msgs_defined">Всего сообщений</string>
+	<string name="msgs_sended_lost">Сообщений (отправлено/потеряно)</string>
+	<string name="location">Местоположение</string>
+	<string name="text">Текстовые</string>
+	<string name="images">Изображения</string>
+	<string name="choose_one">Выберите действие</string>
+	<string name="send_cam">Отправить с камеры</string>
+	<string name="take_pic_send_serv">Сделать фото и отправить его на сервер</string>
+	<string name="send_pic_file">Отправить из файла</string>
+	<string name="sel_img_send_serv">Выбрать файл изображения и отправить его на сервер</string>
+	<string name="title_start">Запустить сервис</string>
+	<string name="title_stop">Остановить сервис</string>
+	<string name="sum_start">Сейчас сервис остановлен, нажмите для запуска</string>
+	<string name="sum_stop">Сейчас сервис запущен, нажмите для остановки</string>
+	<string name="settings">Настройки</string>
+	<string name="settings_sum">Конфигурация настроек работы сервиса</string>
+	<string name="send_msg">Сообщения</string>
+	<string name="send_msg_sum">Просмотр и отправка сообщений</string>
+	<string name="send_img">Отправка изображения</string>
+	<string name="send_img_sum">Отправка изображения на сервер</string>
+	<string name="statis_stat">Статистика и статус</string>
+	<string name="statis_stat_sum">Статистика, текущий статус и последние данные</string>
+	<string name="map">Карта</string>
+	<string name="map_sum">Текущее положение на карте</string>
+	<string name="server_connection">Подключение к серверу</string>
+	<string name="server_address">Адрес сервера</string>
+	<string name="server_address_title">Изменить адрес сервера</string>
+	<string name="remain_connected">Оставаться подключенным</string>
+	<string name="remain_connected_title">Держать связь с сервером (для входящих сообщений)</string>
+	<string name="unit_settings">Настройки объекта</string>
+	<string name="unit_uid">Уникальный ID объекта</string>
+	<string name="unit_uid_title">Введите уникальный ID объекта (от 8 символов)</string>
+	<string name="use_unit_pass">Пароль объекта</string>
+	<string name="use_unit_pass_sum">Чтобы использовать пароль для доступа к объекту, введите его ниже, а также в
+		настройках объекта
+	</string>
+	<string name="unit_pass">Ввод пароля объекта</string>
+	<string name="unit_pass_title">Введите пароль объекта</string>
+	<string name="unit_pass_sum">Введите пароль объекта</string>
+	<string name="definition_location">Определение местоположения</string>
+	<string name="min_time_int">Мин. интервал времени</string>
+	<string name="min_time_int_title">Мин. временной интервал (секунды) для отправки новых данных</string>
+	<string name="min_dist_int">Мин. расстояние</string>
+	<string name="max_accuracy">Макс. погрешность</string>
+	<string name="max_speed">Макс. скорость</string>
+	<string name="other">Другие</string>
+	<string name="use_stock_cam">Стандартная камера</string>
+	<string name="use_stock_cam_sum">Использовать стандартное приложение камеры (низкое качество)</string>
+	<string name="debug_mode">Отладочный режим</string>
+	<string name="debug_mode_sum">Сохранять лог-файлы в папку \".%s\"</string>
+	<string name="img_packet_size">Размер пакета изображения</string>
+	<string name="img_packet_size_title">Размер пакета изображения (байты)</string>
+	<string name="startup_service">Автозапуск сервиса</string>
+	<string name="startup_service_sum">Автоматически запускать сервис %s после перезагрузки</string>
+	<string name="preparing_send">Подготовка к отправке</string>
+	<string name="first_run">При первом запуске необходимо задать настройки сервиса. Сделать это сейчас?</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+	<string name="please_wait">Пожалуйста, подождите&#8230;</string>
+	<string name="service_restarted">Сервис успешно перезапущен</string>
+	<string name="img_queued">Изображение \"%s\" поставленно в очередь на отправку</string>
+	<string name="msg_queued">Сообщение \"%s\" поставлено в очередь на отправку</string>
+	<string name="img_send_error">Ошибка отправки изображения</string>
+	<string name="msg_send_error">Ошибка отправки сообщения</string>
+	<string name="ok">OK</string>
+	<string name="file_not_image">Выбранный файл не является изображением</string>
+	<string name="again">Повторить</string>
+	<string name="con_error_short">Ошибка соединения с сервером</string>
+	<string name="con_error_long">Неизвестная ошибка хоста. Проверьте адрес и порт сервера.</string>
+	<string name="error_id_pass">Ошибка проверки пароля или ID объекта</string>
+	<string name="could_not_connect">Невозможно подключиться к серверу</string>
+	<string name="received_msg">Получено новое сообщение</string>
+	<string name="no_email_client">Нет установленных почтовых клиентов</string>
+	<string name="email_log_text">По вашему запросу высылаю лог-файлы приложения %s.</string>
+	<string name="restart_now">Перезапустить сервис сейчас?</string>
+	<string name="refreshing">Обновление&#8230;</string>
+	<string name="s">с</string>
+	<string name="b">Б</string>
+	<string name="wireless_networks">Беспроводные сети</string>
+	<string name="wireless_networks_sum">Использовать Wi-Fi и сотовые сети для определения местоположения</string>
+	<string name="about">О программе</string>
+	<string name="about_sum">Информация о программе</string>
+	<string name="loading_doted">загрузка&#8230;</string>
+	<string name="filtering">Фильтрация сообщений</string>
+	<string name="filtering_sum">Включить или отключить фильтрацию сообщений для отправки</string>
+	<string name="change_course">Изменение курса</string>
+	<string name="change_course_title">Мин. угол изменения курса (градусы) для отправки новых данных</string>
+	<string name="change_speed">Перепад скорости</string>
+	<string name="symb_degree">°</string>
+	<string name="mode_of_service">Режим работы</string>
+	<string name="mode_of_service_title">Выберите режим работы сервиса</string>
+	<string name="work_of_service">Режим работы сервиса</string>
+	<string name="timeout_data">Таймаут</string>
+	<string name="timeout_data_title">укажите таймаут данных (минимум 5 минут)</string>
+	<string name="min">мин</string>
+	<string name="data_roaming">Работа в роуминге</string>
+	<string name="data_roaming_sum">Отправлять данные в роуминге</string>
+	<string name="show_notification">Уведомления</string>
+	<string name="show_notification_sum">Показывать уведомления о событиях, происходящих в фоновом режиме</string>
+	<string name="compatible_with_wialon">cовместим c</string>
+	<string name="help">Справка</string>
+	<string name="quit">Выход</string>
+	<string name="source_location">Источник местоположения</string>
+	<string name="source_location_title">Выберите источник местоположения</string>
+	<string name="use_sound_and_vibrate">Проигрывать события</string>
+	<string name="use_sound_and_vibrate_sum">Сопровождать новые события звуковым сигналом (вибрацией, светом)</string>
+	<string name="no_messages">У вас нет сообщений</string>
+	<string name="type_c">Тип сообщения:</string>
+	<string name="time_c">Время и дата:</string>
+	<string name="delivery_status_c">Статус доставки:</string>
+	<string name="delivery_time_c">Время доставки:</string>
+	<string name="inbox">входящее</string>
+	<string name="outbox">исходящее</string>
+	<string name="not_delivered">не доставлено</string>
+	<string name="delivered">доставлено</string>
+	<string name="message_length_c">Кол-во символов:</string>
+	<string name="symbols">&#160;</string>
+	<string name="image_path_c">Путь к файлу:</string>
+	<string name="content_type_c">Cодержимое:</string>
+	<string name="text_sm">текст</string>
+	<string name="image_sm">изображение</string>
+	<string name="position_sm">позиция</string>
+	<string name="select_action">Укажите действие</string>
+	<string name="show_information">Показать подробности</string>
+	<string name="copy_text">Скопировать содержимое</string>
+	<string name="remove_message">Удалить сообщение</string>
+	<string name="msgs_succes_removed">Сообщение успешно удалено</string>
+	<string name="delivered_short">Сообщение доставлено</string>
+	<string name="delivered_long">Сообщение доставлено успешно</string>
+	<string name="delivered_long_i">Изображение \"%s\" доставлено успешно</string>
+	<string name="remove_all">Удалить все</string>
+	<string name="remove_all_dialog">Вы действительно хотите удалить все сообщения?</string>
+	<string name="title_c">Тема:</string>
+	<string name="text_c">Текст:</string>
+	<string name="show_on_map">Показать на карте</string>
+	<string name="calculate_route">Рассчитать маршрут</string>
+	<string name="unable_calc_route">Не удалось рассчитать маршрут</string>
+	<string name="map_request_lang">ru</string>
+	<string name="use_gpstag_pass">Пароль администратора</string>
+	<string name="use_gpstag_pass_sum">Использовать пароль для доступа к администрированию %s</string>
+	<string name="gpstag_pass_title">Введите пароль</string>
+	<string name="gpstag_pass">Ввод пароля администратора</string>
+	<string name="gpstag_pass_sum">Введите пароль для доступа к администрированию %s</string>
+	<string name="password">Пароль</string>
+	<string name="enter_password">Введите пароль администратора</string>
+	<string name="wrong_password">Неверный пароль</string>
+	<string name="types_of_notifications">Типы уведомлений</string>
+	<string name="types_of_notifications_sum">Выберите события, для которых будут показываться уведомления</string>
+	<string name="charger_reaction">Работать при зарядке</string>
+	<string name="charger_reaction_sum">Запускать сервис при подключении зарядного устройства и останавливать при
+		отключении
+	</string>
+	<string name="service_started_short">сервис запущен</string>
+	<string name="service_stoped_short">сервис остановлен</string>
+	<string name="service_started_after_reboot">Сервис включен после перезапуска системы</string>
+	<string name="service_started_connect_charger">Сервис запущен при подключении зарядного устройства</string>
+	<string name="service_stopped_disconnect_charger">Сервис остановлен при отключении зарядного устройства</string>
+	<string name="service_started_schedule_intreval">Сервис запущен по расписанию</string>
+	<string name="service_stoped_schedule_intreval">Сервис остановлен по расписанию</string>
+	<string name="add_start_stop">Работать по расписанию</string>
+	<string name="add_start_stop_sum">Укажите время, когда следует запускать и останавливать сервис</string>
+	<string name="intervals">Расписание</string>
+	<string name="start_time">Время запуска</string>
+	<string name="stop_time">Время остановки</string>
+	<string name="select_time">Укажите время</string>
+	<string name="total_time">Общее время</string>
+	<string name="time_interval_error">Некорректный интервал</string>
+	<string name="select_week_day_title">Выберите дни недели</string>
+	<string name="from_to_interval_item">%1$02d:%2$02d - %3$02d:%4$02d</string>
+	<string name="remove_interval">Удалить интервал</string>
+	<string name="edit_interval">Редактировать</string>
+	<string name="service_works_short">Сервис %s работает</string>
+	<string name="last_pos_at">Последнее сообщение в</string>
+	<string name="no_pos_data">Нет позиционных данных</string>
+	<string name="notice_and_state">Уведомления и состояние</string>
+	<string name="show_service_status">Показывать статус сервиса</string>
+	<string name="show_service_status_sum">Показывать индикатор работы сервиса в панели уведомлений</string>
+	<string name="no_items">Не указано</string>
+	<string name="unlicensed_dialog_title">Нет лицензии</string>
+	<string name="buy_button">Купить</string>
+	<string name="unlicensed_dialog_body">Отсутствует лицензия. Приложение можно приобрести на Google Play Market.
+	</string>
+	<string name="unlicensed_dialog_retry_body">Не удалось подтвердить лицензию. Проверьте доступность сетевого
+		подключения.
+	</string>
+	<string name="retry_button">Повторить</string>
+	<string name="quit_button">Выйти</string>
+	<string name="messages_settings">Настройки сообщений</string>
+	<string name="use_custom_messages">Использовать расширенные параметры</string>
+	<string name="use_custom_messages_sum">Включить дополнительные параметры в содержимое сообщений</string>
+	<string name="send_provider_name">Имя провайдера</string>
+	<string name="send_provider_name_sum">Включить имя провайдера в позиционные сообщения</string>
+	<string name="send_accuracy">Точность</string>
+	<string name="send_accuracy_sum">Включить точность в позиционные сообщения</string>
+	<string name="send_battery_level">Уровень заряда батареи</string>
+	<string name="send_battery_level_sum">Включить уровень заряда батареи</string>
+	<string name="server_port">Порт сервера</string>
+	<string name="server_port_title">Введите порт сервера</string>
+	<string name="send_param">Отправка состояний</string>
+	<string name="send_param_sum">Отправка тревожного сообщения или произвольного состояния</string>
+	<string name="send_alarm">Тревога</string>
+	<string name="send_alarm_sum">Отправить тревожное сообщение (SOS)</string>
+	<string name="alarm_queued">Тревожное сообщение поставлено в очередь на отправку</string>
+	<string name="param_queued">Состояние \"%s\" поставлено в очередь на отправку</string>
+	<string name="alarm_send_error">Ошибка отправки тревожного сообщени</string>
+	<string name="param_send_error">Ошибка отправки произвольного состояния \"%s\"</string>
+	<string name="delivered_long_custom_msg">Тревога или произвольное состояние отправлены</string>
+	<string name="alarm_msg_text">Тревожное сообщение</string>
+	<string name="param_msg_text">Состояние \"%1$s\" со значением \"%2$s\"\r\nОтправленные параметры: %3$s</string>
+	<string name="add_status_message">Новое состояние</string>
+	<string name="add_status_message_sum">Добавить новое произвольное состояние с настраиваемыми значениями</string>
+	<string name="status_messages">Статусы</string>
+	<string name="send_prams">Формат сообщения</string>
+	<string name="always_send_last">Дублировать последнее</string>
+	<string name="always_send_last_sum">Отправлять последнее установленное значение в каждом позиционном сообщении
+	</string>
+	<string name="remove_current_config">Удалить состояние</string>
+	<string name="remove_current_config_sum">Удалить это состояние и его конфигурацию</string>
+	<string name="enter_name">Введите имя</string>
+	<string name="configuration_name">Имя</string>
+	<string name="add_param">Добавить</string>
+	<string name="list_of_params">Список значений</string>
+	<string name="delete">Удалить</string>
+	<string name="available_params">Значения</string>
+	<string name="modify_params">Настроить список значений</string>
+	<string name="new_param">Новое значение</string>
+	<string name="new_status">Новое состояние</string>
+	<string name="really_delete_status">Вы действительно хотите удалить это произвольное состояние?</string>
+	<string name="state">Состояние</string>
+	<string name="choose_state">Выберите значение</string>
+	<string name="background_data_disabled_title">Фоновый режим обмена данными отключен</string>
+	<string name="background_data_disabled">Для корректной работы %s необходимо включить фоновый режим обмена данными
+	</string>
+	<string name="enable">Включить</string>
+	<string name="use_us_metrics">Единицы США</string>
+	<string name="use_us_metrics_sum">Показывать расстояние в милях и футах</string>
+	<string name="mps">ми/с</string>
+	<string name="meters_per_second">метры в секунду</string>
+	<string name="kilometers_per_hour">километры в час</string>
+	<string name="miles_per_hour">мили в час</string>
+	<string name="mph">ми/ч</string>
+	<string name="mi">ми</string>
+	<string name="ft">фт</string>
+	<string name="km">км</string>
+	<string name="kilometers">километры</string>
+	<string name="meters">метры</string>
+	<string name="miles">мили</string>
+	<string name="foots">футы</string>
+	<string name="min_dist_int_title">Мин. пройденное расстояние (%s) для отправки новых данных</string>
+	<string name="change_speed_title">Мин. перепад скорости (%s) для отправки новых данных</string>
+	<string name="max_accuracy_title">Макс. значение погрешности (%s), при котором сообщение будет считаться валидным
+	</string>
+	<string name="max_speed_title">Макс. значение скорости (%s), при котором сообщение будет считаться валидным</string>
+	<string name="m">м</string>
+	<string name="kph">км/ч</string>
+	<string name="signing_up_doted">Соединение&#8230;</string>
+	<string name="signing_in_doted">Соединение&#8230;</string>
+	<string name="unit_already_exists">Объект с таким уникальным ID уже зарегистрирован на GPS-Trace Orange</string>
+	<string name="login">Логин</string>
+	<string name="email">E-mail</string>
+	<string name="sign_up">Регистрация</string>
+	<string name="sign_in">Подключить</string>
+	<string name="generate_random">Случайное значение</string>
+	<string name="finish">OK</string>
+	<string name="success_registration_text">%1$s, спасибо за регистрацию в бесплатной системе спутникового мониторинга
+		GPS-Trace Orange.\nНа Ваш адрес электронной почты %2$s отправлено письмо с информацией о только-что созданной
+		учетной записи.\nСейчас Вы можете войти в систему, создатели GPS-Trace Orange желают Вам удачного использования
+		нашей системы!
+	</string>
+	<string name="success_login_text">Успешно подключились к \"%1$s\".</string>
+	<string name="wrong_login">Неверный логин</string>
+	<string name="wrong_email">Неверный e-mail</string>
+	<string name="empty_password">Пустой пароль</string>
+	<string name="no_network_connection">Отсутствует сетевое соединение</string>
+	<string name="user_already_exists">Пользователь с таким именем или e-mail уже существует</string>
+	<string name="wrong_uid">ID должен содержать не менее 8 символов</string>
+	<string name="forgot_password">Забыли пароль?</string>
+	<string name="skip">Пропустить</string>
+	<string name="wrong_login_or_password">Неверный логин или пароль</string>
+	<string name="do_you_want_to_replace_unit">Достигнуто максимальное разрешенное количество объектов. Заменить
+		какой-то из существующих объектов новым?
+	</string>
+	<string name="choose_unit">Выберите объект:</string>
+	<string name="reset_password">Сбросить пароль</string>
+	<string name="forgot_password_text">Пожалуйста, введите Ваш логин и адрес электронной почты.\nВам будет отправлен
+		новый пароль.
+	</string>
+	<string name="password_has_sent">Письмо было отправлено на %1$s.</string>
+	<string name="wrong_login_or_email">Пользователя с таким именем и адресом электронной почты не существует.</string>
+	<string name="resetting_doted">Сброс&#8230;</string>
+	<string name="change_account">Сменить пользователя</string>
+	<string name="change_account_summary">Выйти из \"%1$s\" (подключиться другим пользователем)</string>
+	<string name="tmp_alert_title">GPS Tag для GPS-Trace Orange</string>
+	<string name="tmp_alert_text">Необходимо загрузить специальную версию приложения для GPS-Trace Orange.</string>
+	<string name="tmp_alert_get_app">Загрузить приложение</string>
+	<string-array name="entries_mode">
+		<item>Работать постоянно</item>
+		<item>Работать по таймауту</item>
+	</string-array>
+	<string-array name="entries_location_mode">
+		<item>GPS</item>
+		<item>Беспроводные сети</item>
+		<item>GPS и беспроводные сети</item>
+	</string-array>
+	<string-array name="entries_notifications">
+		<item>Ошибка соединения</item>
+		<item>Неверный ID или пароль</item>
+		<item>Новое сообщение</item>
+		<item>Доставка текстового сообщения</item>
+		<item>Доставка изображения</item>
+		<item>Автоматический запуск/остановка сервиса</item>
+		<item>Доставка состояния</item>
+	</string-array>
+	<string-array name="week_days">
+		<item>Понедельник</item>
+		<item>Вторник</item>
+		<item>Среда</item>
+		<item>Четверг</item>
+		<item>Пятница</item>
+		<item>Суббота</item>
+		<item>Воскресенье</item>
+	</string-array>
+	<string-array name="week_days_short">
+		<item>Пн</item>
+		<item>Вт</item>
+		<item>Ср</item>
+		<item>Чт</item>
+		<item>Пт</item>
+		<item>Сб</item>
+		<item>Вс</item>
+	</string-array>
+	<string-array name="send_param_entries">
+		<item>Числовое значение</item>
+		<item>Текстовое значение</item>
+		<item>Оба значения</item>
+	</string-array>
+	<string-array name="test_statuses">
+		<item>Свободен</item>
+		<item>Занят</item>
+		<item>Нет на месте</item>
+	</string-array>
+</resources>
